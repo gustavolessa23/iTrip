@@ -1,0 +1,59 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="center" style="text-align: center">Currency</div>
+    <div class="left">
+        <ons-toolbar-button onclick="getLocation()">Refresh</ons-toolbar-button>
+      </div>
+  
+      <div class="right">
+        <ons-toolbar-button onclick="saveInfo()">Save</ons-toolbar-button>
+      </div>
+  </ons-toolbar>
+  <div style="text-align: center;; padding-top:20px">
+    Conversion
+  </div>
+
+  <!-- Centered div to be displayed-->
+  <div class="centered-div" style="text-align: center" id="convdiv">
+
+      <div style="display: inline-block">
+
+    <!--
+        Table to include labels and input fields
+    -->
+    <table class="center">
+        <tr>
+            <td>
+                <h2>
+                    USD (US$)
+                </h2>
+            </td>
+            <td>
+                <input type="number" id="usd">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2><div id=secondcurrencyname></div>
+                </h2>
+            </td>
+            <td>
+                <input type="number" id="otheramount">
+            </td>
+        </tr>
+    </table>
+  </div>
+    <!-- <div class="row"> -->
+    <div>
+        <section style="padding: 8px">
+            <ons-button  onClick="fromusd()">From USD</ons-button>
+              <ons-button  onClick="tousd()">To USD</ons-button>
+          </section>
+
+    </div>
+
+
+    <!-- <section style="padding: 8px">
+        <ons-button modifier="large" onclick="clearStorage()">Clear</ons-button>
+      </section> -->
+</ons-page>

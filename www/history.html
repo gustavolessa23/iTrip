@@ -1,0 +1,40 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="center" style="text-align: center">History</div>
+    <div class="left">
+        <ons-toolbar-button onclick="getLocation()">Refresh</ons-toolbar-button>
+      </div>
+
+      
+      <!-- <ons-card>
+          <div class="list-title">entry.dateReturned</div>
+          <ul class="list">
+            <li class="list-item">
+              <div class="list-item__center">entry.road+', '+entry.city+', '+entry.state+', '+entry.country</div>
+            </li>
+            <li class="list-item">
+                <div class="list-item__center">Temperture: entry.currentTemp</div>
+              </li>
+            <li class="list-item">
+              <div class="list-item__center">Weather condition: entry.weatherDesc</div>
+            </li>
+            <li class="list-item">
+              <div class="list-item__center">Currency rate (USD to ): entry.quote</div>
+            </li>
+          </ul>
+        </ons-card> -->
+      <div class="right">
+        <ons-toolbar-button onclick="saveInfo()">Save</ons-toolbar-button>
+      </div>
+  </ons-toolbar>
+  <div>
+      <section style="padding: 8px">
+          <ons-button modifier="large" onclick="clearStorage()">Clear</ons-button>
+        </section>
+      <!-- <ons-button onclick="clearStorage()">Clear info!</ons-button> -->
+    </div>
+  <div id="historydiv"></div>
+  <div style="text-align: center;; padding-top:20px">
+    
+  </div>
+</ons-page>

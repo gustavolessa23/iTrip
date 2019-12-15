@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-nativestorage": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "lessa.gustavo.itrip"
+        }
+    }
+}

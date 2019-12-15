@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="lessa.gustavo.itrip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <feature name="NativeStorage">
+        <param name="browser-package" value="NativeStorage" />
+    </feature>
+    <name>iTrip - Your travel pal</name>
+    <description>
+        Travel pal app
+    </description>
+    <author email="gustavolessadublin@gmail.com" href="https://androidresearch.net">
+        Graduate and student.
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="www/img/logo.png" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyA-u92AFVrRneKDg0Eb7BW9l_sLkRO_3Dk" />
+    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="AIzaSyA-u92AFVrRneKDg0Eb7BW9l_sLkRO_3Dk" />
+</widget>

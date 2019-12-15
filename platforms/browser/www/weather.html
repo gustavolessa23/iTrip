@@ -1,0 +1,60 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="center" style="text-align: center">Weather</div>
+    <div class="left">
+        <ons-toolbar-button onclick="getLocation()">Refresh</ons-toolbar-button>
+      </div>
+  
+      <div class="right">
+        <ons-toolbar-button onclick="saveInfo()">Save</ons-toolbar-button>
+      </div>
+  </ons-toolbar>
+<!-- <div class="center"> -->
+<div style="text-align: center">
+    <div style="display: inline-block" id="openweathermap-widget-15"></div>
+</div>
+<div id="weatherdiv"></div>
+<div id="currentconditionsdiv"></div>
+  <!-- <div class="list-title">Current conditions</div>
+    <ul class="list">
+      <li class="list-item">
+        <div class="list-item__center" id="currenttemp"></div>
+      </li>
+      <li class="list-item">
+          <div class="list-item__center" id="feelslike"></div>
+        </li>
+      <li class="list-item">
+        <div class="list-item__center" id="maxtemp"></div>
+      </li>
+      <li class="list-item">
+        <div class="list-item__center" id="mintemp"></div>
+      </li>
+      <li class="list-item">
+        <div class="list-item__center" id="humidity"></div>
+      </li>
+      <li class="list-item">
+        <div class="list-item__center" id="weatherdesc"></div>
+      </li>
+    </ul>
+  </div> -->
+  <!-- <div class="list-title">Forecast</div> -->
+  <div id="forecastdiv"></div>
+  <!-- <ons-card>
+  <div class="list-title"></div>
+    <ul class="list">
+        <li class="list-item">
+          <div class="list-item__center"></div>
+        </li>
+        <li class="list-item">
+          <div class="list-item__center"></div>
+        </li>
+        <li class="list-item">
+          <div class="list-item__center"></div>
+        </li>
+        <li class="list-item">
+          <div class="list-item__center" ></div>
+        </li>
+    </ul>
+  </ons-card> -->
+  </div>
+</ons-page>
