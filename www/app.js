@@ -570,5 +570,9 @@ function onErrorPic(imageData){
 
 function displayWelcome(){
     document.getElementById('welcometitle').innerHTML = 'Welcome to '+entry.city+', '+entry.country+'!';
-    document.getElementById('testflag').innerHTML = entry.flag;
+    
+    if(entry.flag!=null && entry.flag != undefined){
+        document.getElementById('testflag').innerHTML = entry.flag;
+
+    }
 }
