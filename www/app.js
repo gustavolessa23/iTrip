@@ -529,7 +529,7 @@ function getConversionQuote() {
 // Convert from USD to local currency
 function fromusd() {
     var dollars = Number(document.getElementById("usd").value); // get value typed by user
-    var total = quote * dollars; // convert value
+    var total = entry.quote * dollars; // convert value
     document.getElementById('otheramount').value = ''; // clear field (it was needed, because if user typed something, it wouldn't be overwritten)
     document.getElementById('otheramount').value = roundToX(total,2); // set converted value
     console.log(total); // print total to console
@@ -538,7 +538,7 @@ function fromusd() {
 // Convert from local currency to USD
 function tousd() {
     var other = document.getElementById("otheramount").value; // get value typed by user
-    var total = other / quote; // convert value
+    var total = other / entry.quote; // convert value
     document.getElementById('usd').value = ''; // clear field
     document.getElementById('usd').value = roundToX(total,2); // set converted value
     console.log(total); // print total to console
